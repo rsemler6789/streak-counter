@@ -1,7 +1,7 @@
 import { JSDOM } from "jsdom";
 import { streakCounter } from "../src/index";
 
-export function formattedDate(date: Date): string {
+function formattedDate(date: Date): string {
   return date.toLocaleDateString("en-US");
 }
 
